@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>供应商管理</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/fave-icon.png" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <!---start-wrap---->
+    <div class="wrap">
+    <!---strat-header---->
+    <div class="header">
+      <div class="logo">
+        <a href="index.html"> </a>
+      </div>
+      <div class="top-nav">
+        <ul>
+          <li><a href="index.html">主页</a></li>
+          <li><a href="blog.html">成品库</a></li>
+          <li><a href="#">生产线</a></li>
+          <li><a href="#">生产线-原材料</a></li>
+          <li><a href="warehouse-manage.html">仓库管理</a></li>
+          <li class="active"><a href="icons.html">供应商管理</a></li>
+          <li><a href="#">调频</a></li>
+          <div class="clear"> </div>
+        </ul>
+      </div>
+      <div class="clear"> </div>
+    </div>
+    </div>
+    <!---//End-header---->
+    <!---start-content---->
+    <!---start-blog-sinle-page---->
+      <div class="blog-single" id="blog-single">
+        <div class="wrap" id="wrap">
+
+          <div class="blog-single-header">
+            <h3><a href="#">供应商管理</a></h3>
+            <ul>
+              <li><a>2014-07-16</a></li>
+              <li><a>WMS project</a></li>
+              <li><a>Lear</a></li>
+            </ul>
+          </div>
+
+          <div class="article-left">
+              <div class="blog-single-artical">
+
+                <h4 id="1" style="margin-top:0px;">1.	基础信息维护</h4>
+                <h6>目的：供应商维护自身交易数据，供应链双方均可以查看数据。</h6>
+                <p>供应商可以通过网页端进行数据维护，其基础数据包括零件号、质检策略、零件的保质期、最小包装数量。其中质检策略可帮助善友仓库快速进行质检工作。
+                  零件的保质期是用于计算零件是否超出保质期并提醒用户，降低人工查检的失误。
+                </p>
+                <div class="pic supplier-one"></div>
+
+                <h4 id="2">2.  需求预测模块</h4>
+                <h6>目的：使用网页端进行预测的发送，供应链双方第一时间可以查看。</h6>
+                <p>方案一、使用库存查询模块，自行编辑要货需求，上传至系统中，供应商可以通过网页端直接查看并下载预测</p>
+                <p>方案二、使用库存查询模块，下载要货需求后，上传至系统中</p>
+
+                <h4 id="3">3.	供应商按需模块</h4>
+                <h6>目的：需求查看与协商修改，每次需求均有记录方便日后对供应商评定。</h6>
+                <p>供应商查看需求后，可以在系统中下载库存比对清单，如果发现货物不足，可以点击提交工单，将所不足的货物描述清楚后，发送给指定的计划员，计划员只要有网络就可以进行请求的处理。</p>
+                <p>如果货物充足，供应商可以直接筛选需求后，直接将需求转换成发运单，系统自动生成发运单ID，且每箱包装均有ID。</p>
+                <div class="pic supplier-three-one"></div>
+                <p>系统提供打印客户端，供应商可以打印出可粘贴的标签，贴于每箱货物上。</p>
+                <div class="pic supplier-three-two"></div>
+
+
+                <h4 id="4">4.	分析报表</h4>
+                <h6>目的：用户查询CF值、订单进度等，充分了解需求与到实际到货的差别。</h6>
+                <p>用户可以使用WMS系统通过不同条件查看需求值与实际到货值的对比关系，可以查看订单的进度。</p>
+                <div class="pic supplier-four"></div>
+
+              </div>
+          </div>
+
+          <div class="article-right">
+            <div class="fix-menu" id="fix-menu">
+                <ul>
+                  <li><a href="#1">基础信息维护</a></li>
+                  <li><a href="#2">需求预测模块</a></li>
+                  <li><a href="#3">供应商按需模块</a></li>
+                  <li><a href="#4">分析报表</a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+
+        </div>
+      </div>
+
+    <div class="bottom-grids">
+      <p style="text-align:center;color:#fff">Copyright &copy; 2014.上海彩卓信息科技有限公司</p>
+    </div>
+
+     </div>
+    <script>
+        window.onload=function(){
+          resize();
+        }
+        window.onscroll=function(){
+          resize();
+        }
+        function resize(){
+          var menu=document.getElementById("fix-menu");
+          var top=document.getElementById("blog-single").getBoundingClientRect().top;
+          if(top>0){
+            menu.style.position="relative";
+            menu.style.width="100%";
+          }
+          else{
+            menu.style.position="fixed";
+            var width=document.getElementById("wrap").getBoundingClientRect().width*0.2+"px";
+            menu.style.width=width;
+          }
+        }
+    </script>
+</body>
+</html>

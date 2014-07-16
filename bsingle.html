@@ -2,9 +2,10 @@
 <html>
 	<head>
 		<title>icons</title>
+		<meta charset="utf-8" />
 		<link rel="shortcut icon" type="image/x-icon" href="images/fave-icon.png" />
-	    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
 	</head>
 	<body>
 		<!---start-wrap---->
@@ -16,12 +17,13 @@
 			</div>
 			<div class="top-nav">
 				<ul>
-					<li><a href="index.html"> <span> </span></a></li>
-					<li class="active"><a href="blog.html">Blog</a></li>
-					<li><a href="#">Fonts</a></li>
-					<li><a href="#">Templates</a></li>
-					<li><a href="icons.html">Icons</a></li>
-					<li><a href="#">Wordpress</a></li>
+					<li class="active"><a href="index.html">主页</a></li>
+					<li><a href="blog.html">成品库</a></li>
+					<li><a href="#">生产线</a></li>
+					<li><a href="#">生产线-原材料</a></li>
+					<li><a href="warehouse-manage.html">仓库管理</a></li>
+					<li><a href="icons.html">供应商</a></li>
+					<li><a href="#">调频</a></li>
 					<div class="clear"> </div>
 				</ul>
 			</div>
@@ -31,8 +33,9 @@
 		<!---//End-header---->
 		<!---start-content---->
 		<!---start-blog-sinle-page---->
-			<div class="blog-single">
-				<div class="wrap">
+			<div class="blog-single" id="blog-single">
+				<div class="wrap" id="wrap">
+
 					<div class="blog-single-header">
 						<h3><a href="#">We Are Too Addcited To Our Gadgets!	</a></h3>
 						<ul>
@@ -40,26 +43,44 @@
 							<li><a href="#">Miko ivan</a></li>
 							<li><a href="#">Technology</a></li>
 						</ul>
+					</div>
+
+					<div class="article-left">
+							<div class="blog-single-artical">
+								<a href="#"><img src="images/agrtical-bigpic.jpg" alt="" /></a>
+								<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore t voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+								<a href="#"><img src="images/agrtical-bigpic.jpg" alt="" /></a>
+								<h4>Concer for Future Generations</h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+							</div>
+					</div>
+
+					<div class="article-right">
+						<div class="fix-menu" id="fix-menu">
+								<ul>
+									<li><a>title1</a></li>
+									<li><a>title2</a></li>
+									<li><a>title3</a></li>
+								</ul>
 						</div>
-						<div class="blog-single-artical">
-							<a href="#"><img src="images/agrtical-bigpic.jpg" alt="" /></a>
-							<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore t voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
-							<a href="#"><img src="images/agrtical-bigpic.jpg" alt="" /></a>
-							<h4>Concer for Future Generations</h4>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
-							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-						</div>
-						<div class="article">
+					</div>
+
+					<div class="clear"></div>
+
+
+						<!-- <div class="article">
 							<h5>Share this article...</h5>
 							<ul>
 								<li class="twitter"><a href="">1250</a></li>
 								<li class="facebook"><a href="">100</a></li>
 								<li class="pinterest"><a href="">328</a></li>
 							</ul>
-						</div>
-						<div class="artical-comments">
+						</div> -->
+
+						<!-- <div class="artical-comments">
 							<h2>Comments</h2>
 							<div class="artical-comment-grid">
 								<div class="artical-comment-grid-left">
@@ -100,107 +121,43 @@
 							</div>
 							<div class="clear"> </div>
 						</div>
-						<div class="clear"> </div>
+						<div class="clear"> </div> -->
+
 						<!-----start-leavea comment---->
-						<div class="leave-comment-form">
-							<div class="leve-comment">
-								<h2>Leave a Comment</h2>
-								<form>
-									<div>
-										<span>Name<label>*</label></span>
-										<input type="text">
-									</div>
-									<div>
-										<span>Email<label>*</label></span>
-										<input type="text">
-									</div>
-									<div>
-										<span>Your Comment<label>*</label></span>
-										<textarea> </textarea>
-									</div>
-									<input type="submit" value="Post-comment" />
-								</form>
-							</div>
-						</div>
+
 						<!-----//End-leavea comment---->
 				</div>
 			</div>
 		<!---//End-blog-sinle-page---->
-		<div class="bottom-grids">
-			<div class="wrap">
-			<div class="bottom-grid-left">
-				<h3>Visit Our Shop</h3>
-				<div class="bottom-grid-left-grid">
-					<div class="bottom-grid-left-grid-left">
-						<a href="#"><img src="images/bottom-pic.png" alt="" /></a>
-					</div>
-					<div class="bottom-grid-left-grid-right">
-						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam et dolore magna aliqua.</p>
-						<a class="letbtn" href="#">Lets shop</a>
-					</div>
-					<div class="clear"> </div>
-				</div>
-			</div>
-			<div class="bottom-grid-right">
-				<h3>Latest tweets</h3>
-				<div class="bottom-grid-right-grid">
-					<div class="bottom-grid-right-grid-left">
 
-					</div>
-					<div class="bottom-grid-right-grid-right">
-						<p><span>Eiusmod:</span>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-						<span><a href="#">#incididunt</a></span>
-						<label><a href="#">8 mins ago</a></label>
-					</div>
-					<div class="clear"> </div>
-				</div>
-				<div class="clear"> </div>
-				<div class="bottom-grid-right-grid">
-					<div class="bottom-grid-right-grid-left">
-
-					</div>
-					<div class="bottom-grid-right-grid-right">
-						<p><span>Eiusmod:</span>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-						<span><a href="#">#incididunt</a></span>
-						<label><a href="#">2 days ago</a></label>
-					</div>
-					<div class="clear"> </div>
-				</div>
-			</div>
-			<div class="clear"> </div>
-			</div>
-		</div>
 		<!---//End-content---->
 		<!---start-footer---->
-		<div class="footer">
-			<div class="wrap">
-				<div class="footer-left">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="blog.html">Archive</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<div class="clear"> </div>
-					</ul>
-				</div>
-				<div class="footer-center">
-					<ul>
-						<li><a href="#"><span> </span></a></li>
-						<li><a href="#"><span> </span></a></li>
-						<li><a href="#"><span> </span></a></li>
-						<li><a href="#"><span> </span></a></li>
-						<div class="clear"> </div>
-					</ul>
-				</div>
-				<div class="footer-right">
-					<p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
-				</div>
-				<div class="clear"> </div>
-				</div>
+		<div class="bottom-grids">
+			<p style="text-align:center;color:#fff">Copyright &copy; 2014.上海彩卓信息科技有限公司</p>
 		</div>
 		<!---//End-footer---->
 		<!---//End-wrap---->
 		 </div>
-	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+		<script>
+				window.onload=function(){
+					resize();
+				}
+				window.onscroll=function(){
+					resize();
+				}
+				function resize(){
+					var menu=document.getElementById("fix-menu");
+					var top=document.getElementById("blog-single").getBoundingClientRect().top;
+					if(top>0){
+						menu.style.position="relative";
+						menu.style.width="100%";
+					}
+					else{
+						menu.style.position="fixed";
+						var width=document.getElementById("wrap").getBoundingClientRect().width*0.2+"px";
+						menu.style.width=width;
+					}
+				}
+		</script>
 </body>
 </html>
