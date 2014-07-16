@@ -81,7 +81,8 @@
   color:#85c93e
 }
 .blog-single-artical h4{
-  font-size:32px;
+  font-size:27px;
+  color:#85c93e;
 }
 .blog-single-artical h6{
   color:#777;
@@ -90,6 +91,9 @@
 .blog-single-artical p{
   font-size:17px;
   margin:20px 0px;
+}
+.content-top-grid-title-left a{
+    font-weight:500;
 }
 /******************************************** 供应商管理 **********************************************/
 .blog-single-artical .pic{
@@ -101,6 +105,20 @@
 .blog-single-artical .pic.supplier-one{
   background:url(../images/supplier/5-1.png) no-repeat left center ;
   height:533px;
+}
+.blog-single-artical .pic.supplier-two-one{
+    background:url(../images/supplier/5-2-1.png) no-repeat left center ;
+    height:80px;
+    margin-bottom:30px;
+}
+.blog-single-artical .pic.supplier-two-two{
+    background:url(../images/supplier/5-2-2.png) no-repeat left center ;
+    height:526px;
+}
+.blog-single-artical .pic.supplier-two-three{
+    background:url(../images/supplier/5-2-3.png) no-repeat left center ;
+    height:526px;
+    margin-bottom:20px;
 }
 .blog-single-artical .pic.supplier-three-one{
   background:url(../images/supplier/5-3-1.png) no-repeat left top;
@@ -115,4 +133,136 @@
   background:url(../images/supplier/5-4.png) no-repeat left top;
   height:490px;
   margin-bottom:120px;
+}
+/******************************************** 仓库管理 **********************************************/
+.blog-single-artical .pic.ware-one{
+  background:url(../images/warehouse/4-1.png) no-repeat left center ;
+  height:180px;
+}
+.blog-single-artical .pic.ware-two{
+  background:url(../images/warehouse/4-2.png) no-repeat left center ;
+  height:260px;
+}
+.blog-single-artical .pic.ware-three{
+  background:url(../images/warehouse/4-3.png) no-repeat left center ;
+  height:407px;
+}
+.blog-single-artical .pic.ware-five-one{
+  background:url(../images/warehouse/4-5-1.png) no-repeat left center ;
+  height:274px;
+}
+.blog-single-artical .pic.ware-five-two{
+  background:url(../images/warehouse/4-5-2.png) no-repeat left center ;
+  height:263px;
+}
+.blog-single-artical .pic.ware-five-three{
+  background:url(../images/warehouse/4-5-3.png) no-repeat left center ;
+  height:263px;
+  margin-bottom:120px;
+}
+/******************************************** 订单管理 **********************************************/
+.blog-single-artical .pic.order-one{
+    background:url(../images/order/1-1.png) no-repeat left center ;
+    height:787px;
+}
+.blog-single-artical .pic.order-two{
+    background:url(../images/order/1-2.png) no-repeat left center ;
+    height:303px;
+}
+.blog-single-artical .pic.order-three-one{
+    background:url(../images/order/1-3-1.png) no-repeat left center ;
+    height:407px;
+}
+.blog-single-artical .pic.order-three-two{
+    background:url(../images/order/1-3-2.png) no-repeat left center ;
+    height:306px;
+}
+.blog-single-artical .pic.order-four{
+    background:url(../images/order/1-4.png) no-repeat left center ;
+    height:228px;
+    margin-bottom:120px;
+}
+/******************************************** 成品管理 **********************************************/
+.blog-single-artical .pic.product-one{
+    background:url(../images/product/2-1.png) no-repeat left center ;
+    height:800px;
+}
+.blog-single-artical .pic.product-two{
+    background:url(../images/product/2-2.png) no-repeat left center ;
+    height:644px;
+}
+.blog-single-artical .pic.product-three{
+     background:url(../images/product/2-3.png) no-repeat left center ;
+     height:560px;
+}
+.blog-single-artical .pic.product-four{
+      background:url(../images/product/2-4.png) no-repeat left center ;
+      height:448px;
+ }
+.blog-single-artical .pic.product-four-one{
+    background:url(../images/product/2-4-1.png) no-repeat left center ;
+    height:448px;
+}
+.blog-single-artical .pic.product-five-one{
+    background:url(../images/product/2-5-1.png) no-repeat left top ;
+    height:420px;
+}
+.blog-single-artical .pic.product-five-two{
+    background:url(../images/product/2-5-2.png) no-repeat left top ;
+    height:460px;
+}
+.blog-single-artical .pic.product-five-three{
+    background:url(../images/product/2-5-3.png) no-repeat left top ;
+    height:460px;
+}
+.blog-single-artical .pic.product-six-one{
+    background:url(../images/product/2-6-1.png) no-repeat left top ;
+    height:444px;
+}
+.blog-single-artical .pic.product-six-two{
+    background:url(../images/product/2-6-2.png) no-repeat left top ;
+    height:444px;
+    margin-bottom:120px;
+}
+
+/******************************************** 原材料管理 **********************************************/
+.blog-single-artical .pic.material-one-two{
+    background:url(../images/material/3-1-2.png) no-repeat left center ;
+    height:644px;
+}
+.blog-single-artical .pic.material-two{
+    background:url(../images/material/3-2.png) no-repeat left center ;
+    height:803px;
+}
+.blog-single-artical .pic.material-three{
+    background:url(../images/material/3-3.png) no-repeat left center ;
+    height:220px;
+}
+.blog-single-artical .pic.material-four{
+    background:url(../images/material/3-4.png) no-repeat left center ;
+    height:691px;
+}
+.blog-single-artical .pic.material-four-one{
+    background:url(../images/material/3-4-1.png) no-repeat left center ;
+    height:448px;
+}
+.blog-single-artical .pic.material-seven-one{
+    background:url(../images/material/3-7-1.png) no-repeat top center ;
+    height:480px;
+}
+.blog-single-artical .pic.material-seven-two{
+    background:url(../images/material/3-7-2.png) no-repeat top center ;
+    height:480px;
+    margin-bottom:120px;
+}
+/******************************************** 应急管理 **********************************************/
+.blog-single-artical .pic.emergency-one{
+    background:url(../images/emergency/6-1-1.png) no-repeat left center ;
+    height:420px;
+    margin-bottom:40px;
+}
+.blog-single-artical .pic.emergency-two{
+    background:url(../images/emergency/6-1-2.png) no-repeat left center ;
+    height:420px;
+    margin-bottom:120px;
 }

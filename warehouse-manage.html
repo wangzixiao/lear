@@ -4,9 +4,8 @@
 		<title>仓库管理</title>
 		<meta charset="utf-8" />
 		<link rel="shortcut icon" type="image/x-icon" href="images/fave-icon.png" />
-			<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-			<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
-	<!---//start-blog---->
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
 	</head>
 	<body>
 		<!---start-wrap---->
@@ -19,12 +18,12 @@
 			<div class="top-nav">
 				<ul>
 					<li><a href="index.html">主页</a></li>
-					<li><a href="blog.html">成品库</a></li>
-					<li><a href="#">生产线</a></li>
-					<li><a href="#">生产线-原材料</a></li>
-					<li class="active"><a href="#">仓库管理</a></li>
-					<li><a href="icons.html">供应商</a></li>
-					<li><a href="#">调频</a></li>
+					<li><a href="order-manage.html">订单管理</a></li>
+					<li><a href="product-manage.html">成品管理</a></li>
+					<li><a href="material-manage.html">原材料管理</a></li>
+					<li class="active"><a href="warehouse-manage.html">仓库管理</a></li>
+					<li><a href="supplier-manage.html">供应商管理</a></li>
+                    <li><a href="emergency.html">调频/盘点</a></li>
 					<div class="clear"> </div>
 				</ul>
 			</div>
@@ -33,70 +32,103 @@
 		</div>
 		<!---//End-header---->
 		<!---start-content---->
-		<!---start-blog---->
-		<div class="blog">
-			<div class="wrap">
-				<div class="blog-header">
-					<h3>仓库管理</h3>
-				</div>
-			</div>
-			<ul id="filters" class="clearfix">
-				<div class="wrap">
-						<!-- <li><span class="filter active" data-filter="app card icon logo web">All</span></li>
-						<li><span class="filter" data-filter="app">App</span></li>
-						<li><span class="filter" data-filter="card">Design</span></li>
-						<li><span class="filter" data-filter="icon">Mobile</span></li>
-						<li><span class="filter" data-filter="web">Technology</span></li> -->
-						<div class="clear"> </div>
-				</div>
-			</ul>
-			<div class="wrap">
-			<div class="blog-grids" id="portfoliolist">
+		<!---start-blog-sinle-page---->
+			<div class="blog-single" id="blog-single">
+				<div class="wrap" id="wrap">
 
-				<div class="blog-articla-grid  portfolio1 logo1" data-cat="logo">
-					<!-- <div class="blog-articla-grid-pic">
-						<a href="bsingle.html"><img src="images/artpic2.png" alt=" "></a>
-					</div> -->
-					<div class="blog-articla-grid-info">
-						<h3><a href="bsingle.html">库位编排</a></h3>
+					<div class="blog-single-header">
+						<h3><a href="#">仓库管理</a></h3>
 						<ul>
-							<li><p>重新编排善友原材料仓库库位，细化至托，方便用户寻找</p></li>
-							<p class="artical-para">
-						    上图中，MA 代码仓库，MA-01代表仓库MA的第一个货架，MA-01-03代表仓库MA的第一个货架的第3层。MA-01-03-02代表第仓库MA的第一个货架的第3层第2托位置。
-							</p>
-							<p class="artical-para">
-								同时所有的库位的标签贴都会在合理的贴于货架下方某部位，方便用户上架和下货扫描。
-							</p>
-
+							<li><a>2014-07-16</a></li>
+							<li><a>WMS project</a></li>
+							<li><a>Lear</a></li>
 						</ul>
 					</div>
-					<div class="clear"> </div>
+
+					<div class="article-left">
+							<div class="blog-single-artical">
+
+								<h4 id="1" style="margin-top:0px;">1.	库位编排</h4>
+								<p>重新编排善友原材料仓库库位，细化至托，方便用户上架与取货。所有的库位的标签贴都会在合理的贴于货架下方某部位，方便用户上架和下货扫描。
+								</p>
+								<h6>编排方案如下图所示：</h6>
+								<h6>下图中，MA 代码仓库，MA-01代表仓库MA的第一个货架，MA-01-03代表仓库MA的第一个货架的第3层。MA-01-03-02代表第仓库MA的第一个货架的第3层第2托位置。</h6>
+								<div class="pic ware-one"></div>
+
+								<h4 id="2">2.	接收货物</h4>
+								<h6>通过WMS系统扫描接收货物，提高工作效率。同时WMS系统会于每日凌晨与QAD系统进行记录对接，减少数据多次传输的压力。</h6>
+								<p>善友仓库接收来自供应商的货物，每托货物会有托清单，同时每箱货物外包装都有打印且贴好的包装箱标签，如图所示</p>
+								<div class="pic ware-two"></div>
+								<p>接收时可以采用目视的办法进行核查无误后，扫描托清单ID，代表全部接收。另外，可以每箱逐箱扫描核对接收，如有不接收的货物，不扫描即可，系统提供打印出接收清单和未接收清单。</p>
+								<p>所有货物接收后移库至待检区。</p>
+
+								<h4 id="3">3.	验收模块</h4>
+								<h6>快速生成质检单，方便核查记录</h6>
+								<p>供应商已在WMS系统中维护好每个零件的质检策略，当善友仓库接收到来自供应商的零件后，如果为免检零件则不需要打印质检单，可直接等待上架。如果零件为全检，系统会提示用户打印出要质检单。质检人员可以根据质检单进行质检操作。合格品盖章后等待上架，不合格产品托至退回区域。</p>
+								<div class="pic ware-three"></div>
+
+
+								<h4 id="4">4.	上架模块</h4>
+								<h6>细化库位后所有上架库位可以做到精确提示，同时货物的库存管理更加便利。系统初始化时所有零件均无历史库位，上架员工将每箱货物上架时，进行与库位的绑定。</h6>
+								<p>上架有两种方式：</p>
+								<p>一、整托上架：当系统运行后，系统中会提示该零件的历史库位。上架员工只要扫描供应商发出的托清单ID，再次扫描库位即可进行绑定操作。</p>
+								<p>二、单箱上架：如遇不能整托放置或需要单箱上架的地方，可以选择单箱上架操作。只需要扫描每箱唯一码与库位做好绑定即可。</p>
+								<p>上架后即代表入库，系统会自动做移库操作，同时可以很好的控制库存。</p>
+
+								<h4 id="5">5.	报表模块</h4>
+								<p>设有查询、导出的功能。可以根据日期，供应商信息，零件信息等条件查询并生成报表；</p>
+								<h6>接收报表： 供应商名称、唯一码、零件号、生成日期、数量等信息</h6>
+								<div class="pic ware-five-one"></div>
+								<h6>入库报表： 唯一码、零件号、入库日期、入库个数，库位等信息</h6>
+								<div class="pic ware-five-two"></div>
+								<h6>库存信息报表：用户可根据不同的查询条件查看当前库存信息(以查询91G70815零件的库存为例)</h6>
+								<div class="pic ware-five-three"></div>
+
+							</div>
+					</div>
+
+					<div class="article-right">
+						<div class="fix-menu" id="fix-menu">
+								<ul>
+									<li><a href="#1">库位编排</a></li>
+									<li><a href="#2">接收货物</a></li>
+									<li><a href="#3">验收模块</a></li>
+									<li><a href="#4">上架模块</a></li>
+									<li><a href="#5">报表模块</a></li>
+								</ul>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+
 				</div>
-
-
-
-
-
-
-
-				<div class="clear"> </div>
 			</div>
-			<div class="clear"> </div>
 
-			<div class="clear"> </div>
-			</div>
-		</div>
-		<!---//End-blog---->
 		<div class="bottom-grids">
 			<p style="text-align:center;color:#fff">Copyright &copy; 2014.上海彩卓信息科技有限公司</p>
+		</div>
 
 		</div>
-		<!---//End-content---->
-		<!---start-footer---->
-
-		<!---//End-footer---->
-		<!---//End-wrap---->
-		 </div>
-	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+		<script>
+				window.onload=function(){
+					resize();
+				}
+				window.onscroll=function(){
+					resize();
+				}
+				function resize(){
+					var menu=document.getElementById("fix-menu");
+					var top=document.getElementById("blog-single").getBoundingClientRect().top;
+					if(top>0){
+						menu.style.position="relative";
+						menu.style.width="100%";
+					}
+					else{
+						menu.style.position="fixed";
+						var width=document.getElementById("wrap").getBoundingClientRect().width*0.2+"px";
+						menu.style.width=width;
+					}
+				}
+		</script>
 </body>
 </html>

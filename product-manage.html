@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>成品管理</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/fave-icon.png" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<!---start-wrap---->
+<div class="wrap">
+    <!---strat-header---->
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"> </a>
+        </div>
+        <div class="top-nav">
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="order-manage.html">订单管理</a></li>
+                <li class="active"><a href="product-manage.html">成品管理</a></li>
+                <li><a href="material-manage.html">原材料管理</a></li>
+                <li><a href="warehouse-manage.html">仓库管理</a></li>
+                <li><a href="supplier-manage.html">供应商管理</a></li>
+                <li><a href="emergency.html">调频/盘点</a></li>
+                <div class="clear"> </div>
+            </ul>
+        </div>
+        <div class="clear"> </div>
+    </div>
+</div>
+<!---//End-header---->
+<!---start-content---->
+<!---start-blog-sinle-page---->
+<div class="blog-single" id="blog-single">
+    <div class="wrap" id="wrap">
+
+        <div class="blog-single-header">
+            <h3><a href="#">成品管理</a></h3>
+            <ul>
+                <li><a>2014-07-16</a></li>
+                <li><a>WMS project</a></li>
+                <li><a>Lear</a></li>
+            </ul>
+        </div>
+
+        <div class="article-left">
+            <div class="blog-single-artical">
+                <h4 id="1" style="margin-top:0px;">1.	准备工作 </h4>
+                <div class="pic product-one"></div>
+                <p>按上图，为MB项目划分了两排货架，共12个，分别编排为01,02,03......12。对于单个货架，假设有3层，从最下面最左边一个库位开始，库位的大小为一个托车一托货物的大小。
+                    第一层重做往右分别编排为01-01，01-02，01-03，01-04，01-05。第二层为02-01,02-02,02-03,02-04,02-05 依次类推。这样，当我们定位一个货架时，可以使用MB-01-01-01，
+                    表示MB项目第1个货架第1层左边第1个。
+                </p>
+                <p>同时测量每个库位的体积以及不同种类成品的体积，以提供计算库位剩余容量。</p>
+
+                <h4 id="2">2.	成品下线流转监控</h4>
+                <p>成品完成生产后，WMS支持从MES中直接导入成品信息，WMS自动将已完成生产的成品记录为“生产在途”状态。</p>
+                    <!--<div class="pic product-two"></div>-->
+
+                <h4 id="3">3.	成品接受管理</h4>
+                <h6>提供成品仓库接收上架，自动库位提示等功能</h6>
+                <p>成品由生产线运送至缓冲区后，仓库人员将成品按托摆放，使用手中的移动扫描设别按托扫描，结束后点击上架。WMS将提示可以上架的库位，
+                    在扫描的过程中，WMS系统将会修改成品为“到达仓库”状态。在此之前，每种成品零件都有预设的库位，如果没有预设库位，WMS系统将自动寻找空库位提示。
+                    如果预设存在库位并可用，优先提示可用预设库位，如果预设库位不可用，将在预设库位附近找寻最近的空库位提示上架，同时库位上的LED指示灯亮起。
+                    上架人员完成上架后，需使用手持设备扫描库位号，WMS将验证是否上架到正确的库位上并修改成品状态为“已上架”，库位指示灯熄灭，
+                    同时增加成品库存并同步显示到生产线的生产指示牌上。库存信息更新后，WMS系统会比对库存预警最大值，如果超过则会向相关人员发出预警信息。
+                 </p>
+                <div class="pic product-three"></div>
+
+                <h4 id="4">4.	成品发货管理</h4>
+                <h6>提供生成择货单，托清单运单打印以及库存更新等功能</h6>
+                <p>发货人员使用移动手持设备选择客户订单，生成择货单，择货单可分配给多个备货人员。WMS会提示择货单中每种的库存情况，包括在仓库中的成品以及在途的成品，
+                    提供备货人员判断是否需要等待在途成品到达后再备货。WMS系统根据成品的入库时间，依照先进先出的原则生成择货单，每种成品旁都会显示库位，需要准备的数量等。
+                    一份订单被处理后，其他人将无法处理同一份订单。发货人员完成一托的成品备货后，扫描所有货物，WMS会验证是否准备了正确的货物，确认无误后点击生成打印托清单，
+                    WMS将成品修改为“已完成备货”并将择货单中的货物勾选，防止重复备货。整份择货单备货完成后，发货人员可以新建运单并加入拖清单点击发送，此时成品状态修改为“已出库”。
+                    出库完成后，WMS减少库存，更新生产线生产指示牌，比对库存预警最小值，如果低于最小值，向相关人员发出预警信息。</p>
+                <div class="pic product-four"></div>
+                <h6 style="margin-top:35px;">托清单模板</h6>
+                <div class="pic product-four-one"></div>
+
+
+                <h4 id="5">5.	库位及成品信息查询</h4>
+                <h6>提供库位及成品信息的按不同条件查询的功能</h6>
+                <p>WMS web端给仓库管理人员提供成品的库存情况查询，包括在途与已经入库的成品。查询每个库位的使用情况，是否被使用，存放什么成品，存放多少，空置时间，
+                    整个仓库的空置率等信息。管理人员可通过这些信息来判断是否要减少成品的预设库位。
+                </p>
+                <h6>库位信息查询结果</h6>
+                <div class="pic product-five-one"></div>
+                <h6>库存空置率查询结果</h6>
+                <div class="pic product-five-two"></div>
+                <h6>成品信息查询结果</h6>
+                <div class="pic product-five-three"></div>
+
+
+                <h4 id="6">6.	成品报表</h4>
+                <h6>按时间段导出成品入库报表，成品出库报表</h6>
+                <p>任何情况下，如果已经出现，原材料箱在善友仓库，工厂超市，成品在工厂，仓库丢失或者不能使用或发货的情况，并且已经确认无误，WMS系统提供将以上原材料，成品标记为报废处理，并且需要注明报废理由。</p>
+                <p>WMS提供导出报废报表</p>
+                <h6>2014-7-15日善友成品仓库入库报表</h6>
+                <div class="pic product-six-one"></div>
+                <h6>2014-7-15 善友成品仓库出库报表</h6>
+                <div class="pic product-six-two"></div>
+
+
+            </div>
+        </div>
+
+        <div class="article-right">
+            <div class="fix-menu" id="fix-menu">
+                <ul>
+                    <li><a href="#1">准备工作</a></li>
+                    <li><a href="#2">成品下线流转监控</a></li>
+                    <li><a href="#3">成品接受管理</a></li>
+                    <li><a href="#4">成品发货管理</a></li>
+                    <li><a href="#5">库位及成品信息查询</a></li>
+                    <li><a href="#6">成品报表</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+</div>
+
+<div class="bottom-grids">
+    <p style="text-align:center;color:#fff">Copyright &copy; 2014.上海彩卓信息科技有限公司</p>
+</div>
+
+</div>
+<script>
+    window.onload=function(){
+        resize();
+    }
+    window.onscroll=function(){
+        resize();
+    }
+    function resize(){
+        var menu=document.getElementById("fix-menu");
+        var top=document.getElementById("blog-single").getBoundingClientRect().top;
+        if(top>0){
+            menu.style.position="relative";
+            menu.style.width="100%";
+        }
+        else{
+            menu.style.position="fixed";
+            var width=document.getElementById("wrap").getBoundingClientRect().width*0.2+"px";
+            menu.style.width=width;
+        }
+    }
+</script>
+</body>
+</html>

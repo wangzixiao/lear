@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>调频/盘点</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/fave-icon.png" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<!---start-wrap---->
+<div class="wrap">
+    <!---strat-header---->
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"> </a>
+        </div>
+        <div class="top-nav">
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="order-manage.html">订单管理</a></li>
+                <li><a href="product-manage.html">成品管理</a></li>
+                <li><a href="material-manage.html">原材料管理</a></li>
+                <li><a href="warehouse-manage.html">仓库管理</a></li>
+                <li><a href="supplier-manage.html">供应商管理</a></li>
+                <li class="active"><a href="emergency.html">调频/盘点</a></li>
+                <div class="clear"> </div>
+            </ul>
+        </div>
+        <div class="clear"> </div>
+    </div>
+</div>
+<!---//End-header---->
+<!---start-content---->
+<!---start-blog-sinle-page---->
+<div class="blog-single" id="blog-single">
+    <div class="wrap" id="wrap">
+
+        <div class="blog-single-header">
+            <h3><a href="#">调频 / 盘点</a></h3>
+            <ul>
+                <li><a>2014-07-16</a></li>
+                <li><a>WMS project</a></li>
+                <li><a>Lear</a></li>
+            </ul>
+        </div>
+
+        <div class="article-left">
+            <div class="blog-single-artical">
+                <h4 id="1" style="margin-top:0px;">1.	调频处理模块</h4>
+                <p>任何情况下，如果已经出现，原材料箱在善友仓库，工厂超市，成品在工厂，仓库丢失或者不能使用或发货的情况，并且已经确认无误，WMS系统提供将以上原材料，成品标记为报废处理，并且需要注明报废理由
+                </p>
+                <h6>WMS提供导出报废报表</h6>
+                <div class="pic emergency-one"></div>
+                <div class="pic emergency-two"></div>
+            </div>
+        </div>
+
+        <div class="article-right">
+            <div class="fix-menu" id="fix-menu">
+                <ul>
+                    <li><a href="#1">调频处理模块</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+</div>
+
+<div class="bottom-grids">
+    <p style="text-align:center;color:#fff">Copyright &copy; 2014.上海彩卓信息科技有限公司</p>
+</div>
+
+</div>
+<script>
+    window.onload=function(){
+        resize();
+    }
+    window.onscroll=function(){
+        resize();
+    }
+    function resize(){
+        var menu=document.getElementById("fix-menu");
+        var top=document.getElementById("blog-single").getBoundingClientRect().top;
+        if(top>0){
+            menu.style.position="relative";
+            menu.style.width="100%";
+        }
+        else{
+            menu.style.position="fixed";
+            var width=document.getElementById("wrap").getBoundingClientRect().width*0.2+"px";
+            menu.style.width=width;
+        }
+    }
+</script>
+</body>
+</html>

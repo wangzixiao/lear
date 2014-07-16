@@ -18,12 +18,12 @@
       <div class="top-nav">
         <ul>
           <li><a href="index.html">主页</a></li>
-          <li><a href="blog.html">成品库</a></li>
-          <li><a href="#">生产线</a></li>
-          <li><a href="#">生产线-原材料</a></li>
+          <li><a href="order-manage.html">订单管理</a></li>
+          <li><a href="product-manage.html">成品管理</a></li>
+          <li><a href="material-manage.html">原材料管理</a></li>
           <li><a href="warehouse-manage.html">仓库管理</a></li>
-          <li class="active"><a href="icons.html">供应商管理</a></li>
-          <li><a href="#">调频</a></li>
+          <li class="active"><a href="supplier-manage.html">供应商管理</a></li>
+            <li><a href="emergency.html">调频/盘点</a></li>
           <div class="clear"> </div>
         </ul>
       </div>
@@ -55,10 +55,21 @@
                 </p>
                 <div class="pic supplier-one"></div>
 
-                <h4 id="2">2.  需求预测模块</h4>
-                <h6>目的：使用网页端进行预测的发送，供应链双方第一时间可以查看。</h6>
-                <p>方案一、使用库存查询模块，自行编辑要货需求，上传至系统中，供应商可以通过网页端直接查看并下载预测</p>
-                <p>方案二、使用库存查询模块，下载要货需求后，上传至系统中</p>
+                <h4 id="2">2.  需求模块</h4>
+                <h6>目的：使用网页端进行需求的发送，供应链双方第一时间可以查看。</h6>
+                <p style="margin-bottom:0px;font-size:24px;">确认需求：</p>
+                <p style="margin-top:0px;margin-bottom:0px;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;方案一、使用库存查询模块，自行编辑要货需求</p>
+                <p style="margin-top:0px;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;方案二、到原材料供给之需求单处理模块中下载系统根据阈值预警生成的要货。</p>
+
+                <p style="margin-bottom:0px;font-size:24px;">上传需求：</p>
+                <p style="margin-top:0px;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;将要货需求上传至WMS系统中，在上传的过程中，系统会逐一检查零件号、要货数量、日期等信息，如果有错误，系统会提示纠错，直至完全无误后，系统将需求传至供应商处。</p>
+                <div class="pic supplier-two-one"></div>
+                <div class="pic supplier-two-two"></div>
+
+                <p style="margin-bottom:0px;font-size:24px;"> 查看需求：</p>
+                <p style="margin-top:0px;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;客户与供应商均可以通过网页的形式直接查看需求，同时也可以进行需求的筛选与下载。</p>
+
+                <div class="pic supplier-two-three"></div>
 
                 <h4 id="3">3.	供应商按需模块</h4>
                 <h6>目的：需求查看与协商修改，每次需求均有记录方便日后对供应商评定。</h6>
@@ -81,7 +92,7 @@
             <div class="fix-menu" id="fix-menu">
                 <ul>
                   <li><a href="#1">基础信息维护</a></li>
-                  <li><a href="#2">需求预测模块</a></li>
+                  <li><a href="#2">需求模块</a></li>
                   <li><a href="#3">供应商按需模块</a></li>
                   <li><a href="#4">分析报表</a></li>
                 </ul>

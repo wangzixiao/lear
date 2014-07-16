@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>原材料管理</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/fave-icon.png" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<!---start-wrap---->
+<div class="wrap">
+    <!---strat-header---->
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"> </a>
+        </div>
+        <div class="top-nav">
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="order-manage.html">订单管理</a></li>
+                <li><a href="product-manage.html">成品管理</a></li>
+                <li class="active"><a href="material-manage.html">原材料管理</a></li>
+                <li><a href="warehouse-manage.html">仓库管理</a></li>
+                <li><a href="supplier-manage.html">供应商管理</a></li>
+                <li><a href="emergency.html">调频/盘点</a></li>
+                <div class="clear"> </div>
+            </ul>
+        </div>
+        <div class="clear"> </div>
+    </div>
+</div>
+<!---//End-header---->
+<!---start-content---->
+<!---start-blog-sinle-page---->
+<div class="blog-single" id="blog-single">
+    <div class="wrap" id="wrap">
+
+        <div class="blog-single-header">
+            <h3><a href="#">原材料供给管理</a></h3>
+            <ul>
+                <li><a>2014-07-16</a></li>
+                <li><a>WMS project</a></li>
+                <li><a>Lear</a></li>
+            </ul>
+        </div>
+
+        <div class="article-left">
+            <div class="blog-single-artical">
+                <h4 id="1" style="margin-top:0px;">1.	需求单生成</h4>
+                <h6>WMS提供多种方式生成需求指令并生成需求单。</h6>
+                <p>超市员工携带安装了WMS APP的移动终端巡视原材料超市，发现库存不足零件即当场扫描库位、零件、数量等信息生成单条需求指令，每一条指令历史都可以被保存以查询检索，做到精确追溯。</p>
+                <p>计划员根据生产计划，或使用WMS系统提供的原材料库存查询功能排查库存，生成或导入需求。</p>
+                <p>MES对接WMS，实时发送原材料消耗数据，WMS自动比对原材料超市为零件设置的库存阈值，如果低于最低库存则自动生成需求指令。</p>
+                <p>需求员查看WMS汇总所有原材料需求时，可以根据项目、时间、零件等条件进行筛选，生成需求单，确认无误后发送给原材料仓库（善友仓库）。</p>
+                <div class="pic material-one-two"></div>
+
+                <h4 id="2">2.	需求单处理</h4>
+                <h6>WMS自动处理需求单，进行精确库存预警。</h6>
+                <p>当需求员发送需求单，WMS解析需求单内容对比每一个零件的需求量和实时库存量，当需求量与库存量的差异值小于已设定的最小库存值时，系统自动发送
+                    消息至原材料仓库员工的WEB端和安装了WMS APP的移动终端，员工根据提示消息核对零件真实库存是否和系统库存一致。如果不一致，进行库存调频。如果
+                    一致，员工需检索供应链模块中是否存在已发送给供应商的零件预测或存在尚未入库的运单。如果存在员工可以调整库存阈值或生成供应商需求指令。
+                </p>
+                <div class="pic material-two"></div>
+
+                <h4 id="3">3.	需求单报表</h4>
+                <h6>多种条件组合查询并导出需求单报表</h6>
+                <p>需求员或原材料仓库员工可以根据需求单号、日期、 项目，状态（未处理、处理中、已发运等）等条件查询需求单，显示需求单明细。</p>
+                <p>同时员工可以根据上述条件导出需求单报表，报表中以零件为基轴统计需求数量。</p>
+                <div class="pic material-three"></div>
+
+                <h4 id="4">4.	需求单备货</h4>
+                <h6>获取需求单生成择货单并生成打印托清单和运单</h6>
+                <p>原材料仓库备货人员可以使用WMS wen端和移动手持设备查看来自工厂原材料超市所有的需求订单，勾选需求订单后，选择生成择货单。
+                    WMS会根据原材料入库时间，按照先进先出的原则来生成。择货单可以分派给多个备货人员，择货单上会显示原材料的库位，当前库存等信息。
+                    备货人员完成备货后，扫描所有原材料并选择生成打印托清单，WMS会将备货人员手中的原材料勾选为以备货，备货人员继续完成手中择货单。
+                    当所有的货物都准备完毕后，生成并打印一份发运单，确认无误后点击发送。在整个扫描原材料的过程中，WMS会检查准备的原材料是否与订单需求中相符，
+                    避免出现错发。在发送后WMS会相应减少原材料库存并根据最小库存决定是否要提示相应人员。
+                </p>
+                <div class="pic material-four"></div>
+                <h6 style="margin-top:35px;">托清单模板</h6>
+                <div class="pic material-four-one"></div>
+
+                <h4 id="5">5.	收货管理</h4>
+                <h6>工厂超市收货流程管理</h6>
+                <p>工厂原材料超市人员接收到货物后，可以使用移动手持设备选择按托清单或者每箱原材料进行扫描接受。在扫描的过程中，WMS将原材料标记为“已到达”状态，。接受结束后，WMS提供打印接收清单和拒收清单。</p>
+
+                <h4 id="6">6.	分打标签</h4>
+                <p>原材料在超市上架后，WMS提供按照每箱原材料内的最小包装量进行分打标签的功能</p>
+
+                <h4 id="7">7.	出库入库报表</h4>
+                <p>提供原材料仓库出库和工厂入库的报表导出</p>
+                <h6>2014-7-15 善友原材料仓库出库报表</h6>
+                <div class="pic material-seven-one"></div>
+                <h6>2014-7-15 善友原材料超市接受报表</h6>
+                <div class="pic material-seven-two"></div>
+
+            </div>
+        </div>
+
+        <div class="article-right">
+            <div class="fix-menu" id="fix-menu">
+                <ul>
+                    <li><a href="#1">需求单生成</a></li>
+                    <li><a href="#2">需求单处理</a></li>
+                    <li><a href="#3">需求单报表</a></li>
+                    <li><a href="#4">需求单备货</a></li>
+                    <li><a href="#5">收货管理</a></li>
+                    <li><a href="#6">分打标签</a></li>
+                    <li><a href="#7">出库入库报表</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+</div>
+
+<div class="bottom-grids">
+    <p style="text-align:center;color:#fff">Copyright &copy; 2014.上海彩卓信息科技有限公司</p>
+</div>
+
+</div>
+<script>
+    window.onload=function(){
+        resize();
+    }
+    window.onscroll=function(){
+        resize();
+    }
+    function resize(){
+        var menu=document.getElementById("fix-menu");
+        var top=document.getElementById("blog-single").getBoundingClientRect().top;
+        if(top>0){
+            menu.style.position="relative";
+            menu.style.width="100%";
+        }
+        else{
+            menu.style.position="fixed";
+            var width=document.getElementById("wrap").getBoundingClientRect().width*0.2+"px";
+            menu.style.width=width;
+        }
+    }
+</script>
+</body>
+</html>
