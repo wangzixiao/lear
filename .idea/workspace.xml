@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98af304-d3a8-4293-8618-19fc91d9d519" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/6-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/grid-pic1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/grid-pic2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/grid-pic3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.mixitup.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/supplier/5-0.png" afterPath="$PROJECT_DIR$/images/supplier/5-0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supplier-manage.html" afterPath="$PROJECT_DIR$/supplier-manage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warehouse-manage.html" afterPath="$PROJECT_DIR$/warehouse-manage.html" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +10,7 @@
     <file path="/order-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405510852131" ignored="false" />
     <file path="/index.css" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405516257440" ignored="false" />
     <file path="/material-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405514405448" ignored="false" />
-    <file path="/index.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405516307307" ignored="false" />
+    <file path="/index.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405516426789" ignored="false" />
     <file path="/product-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405515386781" ignored="false" />
     <file path="/emergency.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405514878174" ignored="false" />
     <file path="/supplier-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405515974653" ignored="false" />
@@ -43,7 +32,20 @@
     <favorites_list name="ems" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="50" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.37775445">
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -62,13 +64,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/emergency.html" />
         <option value="$PROJECT_DIR$/material-manage.html" />
         <option value="$PROJECT_DIR$/order-manage.html" />
         <option value="$PROJECT_DIR$/product-manage.html" />
         <option value="$PROJECT_DIR$/supplier-manage.html" />
         <option value="$PROJECT_DIR$/warehouse-manage.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -251,13 +253,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1900" height="1115" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16504854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16504854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -340,16 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="66" selection-start="5176" selection-end="5176" vertical-scroll-proportion="0.11017838">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/emergency.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="31" selection-start="1367" selection-end="1367" vertical-scroll-proportion="-24.375">
@@ -410,6 +402,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="54" selection-start="899" selection-end="899" vertical-scroll-proportion="0.39349422">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="50" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.37775445">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
