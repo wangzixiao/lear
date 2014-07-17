@@ -50,7 +50,7 @@
               <div class="blog-single-artical">
                 <h4 id="1" style="margin-top:0px;">1.	客户订单导入</h4>
                 <h6>客户订单导入，快捷管理订单，精确控制库存，帮助系统在发运环节检查货物的正确性，减少错发率 </h6>
-                <p>客户订单管理员从WEB-EDI系统、客户邮件等通道获取客户订单数据，通过文件方式上传到WMS系统中。
+                <p>客户订单管理员从WEB-EDI系统、客户邮件等通道获取客户订单数据，通过上传文件方式导入到WMS系统中。
                 	WMS处理每一条订单条目，验证零件、订单量、订单发货日期等数据是否正确，如果任何一条出现错误，
                 	系统给出错误提示并提供错误订单文件下载，管理员可以下载文件，查看错误条目，修改后重新上传。
                 	如果订单没有任何错误，系统显示客户订单内容详细预览，管理员可确认上传，WMS将数据保存到系统数据库中。
@@ -67,7 +67,7 @@
                 <h4 id="3">3.	客户订单查询</h4>
                 <h6>多种条件查询方式快速精确地定位到客户订单</h6>
                 <p>管理员填写客户订单号（精确或模糊），选择客户、要货日期等条件组合，查询订单。
-                	WMS筛选出客户订单列表，管理员选择进入某个进入后可以查看详细订单条目。同时管理员可以导出客户订单报表，用以打印或对账。</p>
+                	WMS筛选出客户订单列表，管理员选择进入某个订单后可以查看详细订单条目。同时管理员可以导出客户订单报表，用以打印或对账。</p>
                 <div class="pic order-three-two"></div>
 
 
@@ -101,10 +101,14 @@
     </div>
     <script>
         window.onload=function(){
-          resize();
+            if (typeof document.body.getBoundingClientRect === "function") {
+                resize();
+            }
         }
         window.onscroll=function(){
-          resize();
+            if (typeof document.body.getBoundingClientRect === "function") {
+                resize();
+            }
         }
         function resize(){
           var menu=document.getElementById("fix-menu");
