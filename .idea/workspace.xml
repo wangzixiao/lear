@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98af304-d3a8-4293-8618-19fc91d9d519" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assemble-manage.html" afterPath="$PROJECT_DIR$/assemble-manage.html" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +14,7 @@
     <file path="/product-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405582981209" ignored="false" />
     <file path="/emergency.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405588113471" ignored="false" />
     <file path="/supplier-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405588475863" ignored="false" />
-    <file path="/assemble-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405588024690" ignored="false" />
+    <file path="/assemble-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405589866293" ignored="false" />
     <file path="/warehouse-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405576989523" ignored="false" />
     <file path="/gunter.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405585457044" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,29 +36,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="supplier-manage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/supplier-manage.html">
+      <file leaf-file-name="assemble-manage.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assemble-manage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="54" selection-start="5045" selection-end="5066" vertical-scroll-proportion="-31.666666">
+            <state line="145" column="9" selection-start="4815" selection-end="4815" vertical-scroll-proportion="0.6126033">
               <folding>
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#6;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#7;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="38" selection-start="932" selection-end="932" vertical-scroll-proportion="-0.12096774">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -88,10 +74,10 @@
         <option value="$PROJECT_DIR$/material-manage.html" />
         <option value="$PROJECT_DIR$/gunter.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assemble-manage.html" />
         <option value="$PROJECT_DIR$/emergency.html" />
         <option value="$PROJECT_DIR$/supplier-manage.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/assemble-manage.html" />
       </list>
     </option>
   </component>
@@ -400,15 +386,6 @@
         <state line="96" column="82" selection-start="4668" selection-end="4668" vertical-scroll-proportion="-0.4795383" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="196" selection-start="2906" selection-end="2906" vertical-scroll-proportion="0.5026178">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gunter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="38" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.17871901">
@@ -427,20 +404,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assemble-manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="70" selection-start="4037" selection-end="4037" vertical-scroll-proportion="0.1322314">
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supplier-manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="54" selection-start="5045" selection-end="5066" vertical-scroll-proportion="-31.666666">
+        <state line="121" column="57" selection-start="4791" selection-end="4812" vertical-scroll-proportion="0.68586385">
           <folding>
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -458,6 +424,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="38" selection-start="932" selection-end="932" vertical-scroll-proportion="-0.12096774">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="196" selection-start="2906" selection-end="2906" vertical-scroll-proportion="-3.853403">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assemble-manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="9" selection-start="4815" selection-end="4815" vertical-scroll-proportion="0.6126033">
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
