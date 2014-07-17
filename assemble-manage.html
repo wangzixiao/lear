@@ -141,15 +141,10 @@
 </div>
 <script>
     window.onload=function(){
-        if(typeof document.body.getBoundingClientRect === "function"){
-            resize();
-        }
+        resize();
     }
     window.onscroll=function(){
-        if(typeof document.body.getBoundingClientRect === "function"){
-            resize();
-        }
-
+        resize();
     }
     function resize(){
         var menu=document.getElementById("fix-menu");
