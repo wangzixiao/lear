@@ -117,7 +117,9 @@ body{
     font-weight:bold;
 }
 .blog-single-artical table td{
-    border: 1px solid rgba(0,0,0,0.2);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.2);
     padding:5px;
 }
 /******************************************** ul **********************************************/
