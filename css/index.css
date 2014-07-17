@@ -372,3 +372,13 @@ a{
     height:430px;
 
 }
+/******************************************** 计划安排 **********************************************/
+.blog-single-artical .pic.gunter-one{
+    background:url(../images/gunter/8-1.png) no-repeat center center ;
+    height:420px;
+}
+.blog-single-artical .pic.gunter-two{
+    background:url(../images/gunter/8-2.png) no-repeat center center ;
+    height:420px;
+    margin-bottom:120px;
+}
