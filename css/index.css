@@ -319,6 +319,22 @@ a{
     background:url(../images/material/3-4-2.png) no-repeat center center ;
     height:448px;
 }
+.blog-single-artical .pic.material-four-three{
+    background:url(../images/material/3-4-3.png) no-repeat center center ;
+    height:448px;
+}
+.blog-single-artical .pic.material-five-one{
+    background:url(../images/material/3-5-1.png) no-repeat center center ;
+    height:420px;
+}
+.blog-single-artical .pic.material-five-two{
+    background:url(../images/material/3-5-2.png) no-repeat center center ;
+    height:420px;
+}
+.blog-single-artical .pic.material-six{
+    background:url(../images/material/3-6.jpg) no-repeat center center ;
+    height:450px;
+}
 .blog-single-artical .pic.material-seven-one{
     background:url(../images/material/3-7-1.png) no-repeat top center ;
     height:480px;
