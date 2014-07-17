@@ -101,10 +101,14 @@
     </div>
     <script>
         window.onload=function(){
-          resize();
+            if (typeof document.body.getBoundingClientRect === "function") {
+                resize();
+            }
         }
         window.onscroll=function(){
-          resize();
+            if (typeof document.body.getBoundingClientRect === "function") {
+                resize();
+            }
         }
         function resize(){
           var menu=document.getElementById("fix-menu");

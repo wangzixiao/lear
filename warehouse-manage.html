@@ -123,12 +123,16 @@
 
 		</div>
 		<script>
-				window.onload=function(){
-					resize();
-				}
-				window.onscroll=function(){
-					resize();
-				}
+            window.onload=function(){
+                if (typeof document.body.getBoundingClientRect === "function") {
+                    resize();
+                }
+            }
+            window.onscroll=function(){
+                if (typeof document.body.getBoundingClientRect === "function") {
+                    resize();
+                }
+            }
 				function resize(){
 					var menu=document.getElementById("fix-menu");
 					var top=document.getElementById("blog-single").getBoundingClientRect().top;
