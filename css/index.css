@@ -63,8 +63,8 @@ a{
 .fix-menu{
   margin:0px 10px 0 20px;
   border-width:1px ;
-    border-style: solid;
-    border-color: rgba(0,0,0,0.1);
+  border-style: solid;
+  border-color: rgba(0,0,0,0.1);
   background:rgba(0,0,0,0.02);
   position:relative;
   top:0px;
