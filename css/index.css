@@ -83,6 +83,9 @@ a{
 .fix-menu li a:hover{
   color:#85c93e
 }
+body{
+    min-width:1024px;
+}
 .blog-single-artical h4{
   font-size:27px;
   color:#85c93e;
