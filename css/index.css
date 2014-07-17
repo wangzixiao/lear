@@ -237,6 +237,17 @@ a{
     background:url(../images/product/2-3-3.png) no-repeat left center ;
     height:448px;
 }
+
+.blog-single-artical .pic.product-three-four{
+    background:url(../images/product/2-3-4.png) no-repeat center center ;
+    height:448px;
+}
+.blog-single-artical .pic.product-three-five{
+    background:url(../images/product/2-3-5.png) no-repeat center center ;
+    height:448px;
+}
+
+
 .blog-single-artical .pic.product-four{
       background:url(../images/product/2-4.png) no-repeat left center ;
       height:448px;
