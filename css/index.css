@@ -99,6 +99,24 @@ a{
 .content-top-grid-title-left a{
     font-weight:500;
 }
+/******************************************** table **********************************************/
+.blog-single-artical table{
+    width:100%;
+    border-collapse:collapse;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.blog-single-artical table thead td{
+    font-weight:bold;
+}
+.blog-single-artical table td{
+    border: 1px solid rgba(0,0,0,0.2);
+    padding:5px;
+}
+/******************************************** ul **********************************************/
+.blog-single-artical ul{
+    padding-left:40px;
+    list-style:decimal;
+}
 /******************************************** 供应商管理 **********************************************/
 .blog-single-artical .pic{
   width:100%;
@@ -149,7 +167,11 @@ a{
 }
 .blog-single-artical .pic.ware-two{
   background:url(../images/warehouse/4-2.png) no-repeat left center ;
-  height:260px;
+  height:460px;
+}
+.blog-single-artical .pic.ware-two-one{
+    background:url(../images/warehouse/4-2-1.png) no-repeat left center ;
+    height:460px;
 }
 .blog-single-artical .pic.ware-three{
   background:url(../images/warehouse/4-3.png) no-repeat left center ;
@@ -289,4 +311,10 @@ a{
     background:url(../images/emergency/6-1-2.png) no-repeat left center ;
     height:420px;
     margin-bottom:120px;
+}
+/******************************************** 集成模块 **********************************************/
+.blog-single-artical .pic.assemble-two{
+    background:url(../images/assemble/7-2.jpg) no-repeat center center ;
+    height:430px;
+
 }

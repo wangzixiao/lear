@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>集成模块</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/fave-icon.png" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<!---start-wrap---->
+<div class="wrap">
+    <!---strat-header---->
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"> </a>
+        </div>
+        <div class="top-nav">
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="order-manage.html">订单管理</a></li>
+                <li><a href="product-manage.html">成品管理</a></li>
+                <li><a href="material-manage.html">原材料供给管理</a></li>
+                <li><a href="warehouse-manage.html">仓库管理</a></li>
+                <li><a href="supplier-manage.html">供应商管理</a></li>
+                <li><a href="emergency.html">调平/盘点</a></li>
+                <li class="active"><a href="assemble-manage.html">集成模块</a></li>
+                <div class="clear"> </div>
+            </ul>
+        </div>
+        <div class="clear"> </div>
+    </div>
+</div>
+<!---//End-header---->
+<!---start-content---->
+<!---start-blog-sinle-page---->
+<div class="blog-single" id="blog-single">
+    <div class="wrap" id="wrap">
+
+        <div class="blog-single-header">
+            <h3><a href="#">集成模块</a></h3>
+            <ul>
+                <li><a>2014-07-16</a></li>
+                <li><a>WMS project</a></li>
+                <li><a>Lear</a></li>
+            </ul>
+        </div>
+
+        <div class="article-left">
+            <div class="blog-single-artical">
+                <h4 id="1" style="margin-top:0px;">1.	集成任务</h4>
+                <table>
+                    <thead>
+                    <tr>
+                        <td>目标系统</td>
+                        <td>项目</td>
+                        <td>频率</td>
+                        <td>集成方式</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>QAD</td>
+                        <td>原材料入库</td>
+                        <td>每三小时</td>
+                        <td>QAD QXTend</td>
+                    </tr>
+                    <tr>
+                        <td>QAD</td>
+                        <td>移库时</td>
+                        <td>每三小时</td>
+                        <td>QAD QXTend</td>
+                    </tr>
+                    <tr>
+                        <td>QAD</td>
+                        <td>成品入库</td>
+                        <td>每三小时</td>
+                        <td>QAD QXTend</td>
+                    </tr>
+                    <tr>
+                        <td>QAD</td>
+                        <td>成品发货</td>
+                        <td>每三小时</td>
+                        <td>QAD QXTend</td>
+                    </tr>
+                    <tr>
+                        <td>MES</td>
+                        <td>成品下线</td>
+                        <td>实时</td>
+                        <td>新集成接口开发</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+                <h4 id="2">2.	彩卓集成中心</h4>
+                <p>彩卓WMS与各个系统的集成将通过彩卓集成中心完成，集成中心包括了高性能的任务调度系统，健康监控系统以及便捷的问题通知系统。</p>
+                <div class="pic assemble-two"></div>
+
+                <h4 id="3">3.	集成中心工作方式</h4>
+                <ul>
+                    <li>集成中心提供统一接口接受集成任务，所有的集成任务将被置入排队队列中。</li>
+                    <li>任务将被放置入队列中等待系统处理。</li>
+                    <li>任务分发器按照预设的交互集成频率定时扫描队列里的任务。</li>
+                    <li>当到达预设的集成任务时，分发器检查任务的来源和去向，并且将任务发送到相应的系统中去。</li>
+                    <li>期间如果出现任何的异常，通知中心启动，异常通过邮件方式发送至相关人员。</li>
+                    <li>监控中心可以监控到所有当前的集成任务以及集成的时间效率。</li>
+                </ul>
+
+
+
+                <h4 id="4">4.	性能问题</h4>
+                <ul style="margin-bottom:120px;">
+                    <li>集成中心通过队列控制集成的频率，通过按次小批量的方式在不影响系统性能的方式下进行集成工作。</li>
+                    <li>集成中心根据监控中心提供的集成时间效率指标以及网络测速等数据智能判断目标系统可能已经发生性能问题，并且通过通知中心通知系统管理员。</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="article-right">
+            <div class="fix-menu" id="fix-menu">
+                <ul>
+                    <li><a href="#1">集成任务</a></li>
+                    <li><a href="#2">彩卓集成中心</a></li>
+                    <li><a href="#3">集成中心工作方式</a></li>
+                    <li><a href="#4">性能问题</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+</div>
+
+<div class="bottom-grids">
+    <p style="text-align:center;color:#fff">Copyright &copy; 2014.上海彩卓信息科技有限公司</p>
+</div>
+
+</div>
+<script>
+    window.onload=function(){
+        resize();
+    }
+    window.onscroll=function(){
+        resize();
+    }
+    function resize(){
+        var menu=document.getElementById("fix-menu");
+        var top=document.getElementById("blog-single").getBoundingClientRect().top;
+        if(top>0){
+            menu.style.position="relative";
+            menu.style.width="100%";
+        }
+        else{
+            menu.style.position="fixed";
+            var width=document.getElementById("wrap").getBoundingClientRect().width*0.2+"px";
+            menu.style.width=width;
+        }
+    }
+</script>
+</body>
+</html>
