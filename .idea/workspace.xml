@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98af304-d3a8-4293-8618-19fc91d9d519" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/warehouse/4-2.png" afterPath="$PROJECT_DIR$/images/warehouse/4-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-2.png" afterPath="$PROJECT_DIR$/images/material/3-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/emergency/6-1-1.png" afterPath="$PROJECT_DIR$/images/emergency/6-1-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/emergency/6-1-2.png" afterPath="$PROJECT_DIR$/images/emergency/6-1-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assemble-manage.html" afterPath="$PROJECT_DIR$/assemble-manage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emergency.html" afterPath="$PROJECT_DIR$/emergency.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-manage.html" afterPath="$PROJECT_DIR$/material-manage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order-manage.html" afterPath="$PROJECT_DIR$/order-manage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-manage.html" afterPath="$PROJECT_DIR$/product-manage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supplier-manage.html" afterPath="$PROJECT_DIR$/supplier-manage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warehouse-manage.html" afterPath="$PROJECT_DIR$/warehouse-manage.html" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405561559683" ignored="false" />
+    <file path="/Dummy.txt" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405581180325" ignored="false" />
     <file path="/order-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405510852131" ignored="false" />
-    <file path="/index.css" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405577013174" ignored="false" />
-    <file path="/material-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405564019968" ignored="false" />
+    <file path="/index.css" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405581607547" ignored="false" />
+    <file path="/material-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405581666538" ignored="false" />
     <file path="/index.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405575870572" ignored="false" />
     <file path="/product-manage.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405562785010" ignored="false" />
     <file path="/emergency.html" changelist="a98af304-d3a8-4293-8618-19fc91d9d519" time="1405514878174" ignored="false" />
@@ -43,22 +46,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="warehouse-manage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/warehouse-manage.html">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="60" selection-start="2567" selection-end="2567" vertical-scroll-proportion="-16.25">
-              <folding>
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="291" column="65" selection-start="8080" selection-end="8080" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
+      <file leaf-file-name="material-manage.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/material-manage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="10" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.3030303">
-              <folding />
+            <state line="56" column="56" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.27432713">
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +92,6 @@
       <list>
         <option value="$PROJECT_DIR$/emergency.html" />
         <option value="$PROJECT_DIR$/assemble-manage.html" />
-        <option value="$PROJECT_DIR$/material-manage.html" />
         <option value="$PROJECT_DIR$/order-manage.html" />
         <option value="$PROJECT_DIR$/product-manage.html" />
         <option value="$PROJECT_DIR$/supplier-manage.html" />
@@ -91,6 +99,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/warehouse-manage.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/material-manage.html" />
       </list>
     </option>
   </component>
@@ -201,8 +210,8 @@
     <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -287,7 +296,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16828479" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1699029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -363,55 +372,31 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/warehouse-manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="60" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="39" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="102" column="39" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emergency.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="56" selection-start="793" selection-end="793" vertical-scroll-proportion="0.3416149">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material-manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="64" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.4037267">
-          <folding>
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="22" column="56" selection-start="793" selection-end="793" vertical-scroll-proportion="0.3416149" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order-manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="60" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.4037267">
-          <folding />
-        </state>
+        <state line="26" column="60" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.4037267" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="64" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.4037267">
-          <folding />
-        </state>
+        <state line="26" column="64" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.4037267" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
@@ -423,32 +408,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="68" selection-start="6689" selection-end="6689" vertical-scroll-proportion="0.4491081">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="194" column="68" selection-start="6689" selection-end="6689" vertical-scroll-proportion="0.4491081" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assemble-manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="1197" selection-end="1197" vertical-scroll-proportion="-0.2795031">
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="31" column="49" selection-start="1197" selection-end="1197" vertical-scroll-proportion="-0.2795031" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supplier-manage.html">
@@ -469,17 +434,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/warehouse-manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="60" selection-start="2567" selection-end="2567" vertical-scroll-proportion="-16.25">
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="70" column="60" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.015706806">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="10" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.3030303">
+        <state line="291" column="65" selection-start="8080" selection-end="8080" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="56" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.27432713">
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
