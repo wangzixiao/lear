@@ -209,7 +209,7 @@ a{
 }
 .blog-single-artical .pic.order-four{
     background:url(../images/order/1-4.png) no-repeat left center ;
-    height:228px;
+    height:428px;
     margin-bottom:120px;
 }
 /******************************************** 成品管理 **********************************************/
@@ -272,9 +272,25 @@ a{
     background:url(../images/material/3-1-2.png) no-repeat left center ;
     height:644px;
 }
+.blog-single-artical .pic.material-one-three{
+    background:url(../images/material/3-1-3.png) no-repeat left center ;
+    height:448px;
+}
+.blog-single-artical .pic.material-one-four{
+    background:url(../images/material/3-1-4.png) no-repeat left center ;
+    height:448px;
+}
+.blog-single-artical .pic.material-one-five{
+    background:url(../images/material/3-1-5.png) no-repeat left center ;
+    height:448px;
+}
 .blog-single-artical .pic.material-two{
     background:url(../images/material/3-2.png) no-repeat left center ;
     height:803px;
+}
+.blog-single-artical .pic.material-two-one{
+    background:url(../images/material/3-2-1.png) no-repeat center center ;
+    height:448px;
 }
 .blog-single-artical .pic.material-three{
     background:url(../images/material/3-3.png) no-repeat left center ;
