@@ -65,7 +65,7 @@ body{
 }
 .top-nav ul li{
 	display:inline-block;
-	padding:1.2em 12px;
+	padding:1.2em 10px;
 }
 /*.top-nav ul li:first-child a:before{*/
 	/*content: url(../images/home-icon.png) no-repeat 50%;*/
