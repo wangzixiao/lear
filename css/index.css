@@ -195,6 +195,18 @@
      background:url(../images/product/2-3.png) no-repeat left center ;
      height:560px;
 }
+.blog-single-artical .pic.product-three-one{
+    background:url(../images/product/2-3-1.png) no-repeat left center ;
+    height:448px;
+}
+.blog-single-artical .pic.product-three-two{
+    background:url(../images/product/2-3-2.png) no-repeat left center ;
+    height:448px;
+}
+.blog-single-artical .pic.product-three-three{
+    background:url(../images/product/2-3-3.png) no-repeat left center ;
+    height:448px;
+}
 .blog-single-artical .pic.product-four{
       background:url(../images/product/2-4.png) no-repeat left center ;
       height:448px;
@@ -244,6 +256,10 @@
 }
 .blog-single-artical .pic.material-four-one{
     background:url(../images/material/3-4-1.png) no-repeat left center ;
+    height:448px;
+}
+.blog-single-artical .pic.material-four-two{
+    background:url(../images/material/3-4-2.png) no-repeat center center ;
     height:448px;
 }
 .blog-single-artical .pic.material-seven-one{
