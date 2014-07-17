@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98af304-d3a8-4293-8618-19fc91d9d519" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-5-1.png" afterPath="$PROJECT_DIR$/images/product/2-5-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-5-2.png" afterPath="$PROJECT_DIR$/images/product/2-5-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-5-3.png" afterPath="$PROJECT_DIR$/images/product/2-5-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-6-1.png" afterPath="$PROJECT_DIR$/images/product/2-6-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-6-2.png" afterPath="$PROJECT_DIR$/images/product/2-6-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-7-1.png" afterPath="$PROJECT_DIR$/images/material/3-7-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-7-2.png" afterPath="$PROJECT_DIR$/images/material/3-7-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-manage.html" afterPath="$PROJECT_DIR$/material-manage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-manage.html" afterPath="$PROJECT_DIR$/product-manage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +47,7 @@
       <file leaf-file-name="material-manage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/material-manage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="16" selection-start="2787" selection-end="2787" vertical-scroll-proportion="0.063147">
+            <state line="70" column="28" selection-start="2817" selection-end="2817" vertical-scroll-proportion="-0.061076604">
               <folding>
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -461,7 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/material-manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="16" selection-start="2787" selection-end="2787" vertical-scroll-proportion="0.063147">
+        <state line="70" column="28" selection-start="2817" selection-end="2817" vertical-scroll-proportion="-0.061076604">
           <folding>
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

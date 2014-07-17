@@ -160,6 +160,32 @@ body{
 }
 /*---End-slider-banner----*/
 /*----start-content----*/
+
+.content-top-title{
+/*	margin: 3em 0 2em 0;*/
+/*	float:left;*/
+	width: 80%;
+	margin-left:20%;
+}
+
+.content-top-title h5{
+	font-size: 1.5em;
+	padding: 0px 10px;
+	line-height: 1.2em;
+	border-left: 7px solid #85c93e;
+}
+.content-top-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.975em;
+	color: #A8A8A8;
+	width: 72%;
+	font-weight: 400;
+	line-height: 1.8em;
+	margin: 0px 0px 0.6em 0;
+	display: block;
+	padding: 0px 10px;
+}
+
 .content-top-header{
 	border-left: 7px solid #85c93e;
 }
