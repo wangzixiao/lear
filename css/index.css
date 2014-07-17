@@ -1,4 +1,8 @@
 /*header*/
+a{
+  color:#0177ff;
+
+}
 .brand{
   float:left;
   width:300px;
@@ -128,6 +132,10 @@
 .blog-single-artical .pic.supplier-three-two{
   background:url(../images/supplier/5-3-2.png) no-repeat left top;
   height:498px;
+}
+.blog-single-artical .pic.supplier-three-three{
+    background:url(../images/supplier/5-3-3.png) no-repeat left top;
+    height:260px;
 }
 .blog-single-artical .pic.supplier-four{
   background:url(../images/supplier/5-4.png) no-repeat left top;

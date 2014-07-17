@@ -20,10 +20,10 @@
           <li><a href="index.html">主页</a></li>
           <li><a href="order-manage.html">订单管理</a></li>
           <li><a href="product-manage.html">成品管理</a></li>
-          <li><a href="material-manage.html">原材料管理</a></li>
+          <li><a href="material-manage.html">原材料供给管理</a></li>
           <li><a href="warehouse-manage.html">仓库管理</a></li>
           <li class="active"><a href="supplier-manage.html">供应商管理</a></li>
-            <li><a href="emergency.html">调频/盘点</a></li>
+            <li><a href="emergency.html">调平/盘点</a></li>
           <div class="clear"> </div>
         </ul>
       </div>
@@ -51,7 +51,7 @@
                 <h4 id="1" style="margin-top:0px;">1.	基础信息维护</h4>
                 <h6>目的：供应商维护自身交易数据，供应链双方均可以查看数据。</h6>
                 <p>供应商可以通过网页端进行数据维护，其基础数据包括零件号、质检策略、零件的保质期、最小包装数量。其中质检策略可帮助善友仓库快速进行质检工作。
-                  零件的保质期是用于计算零件是否超出保质期并提醒用户，降低人工查检的失误。
+                    其中零件的保质期是用于计算零件是否超出保质期并提醒用户，降低人工查检的失误。用途会于<a href="warehouse-manage.html#5">仓库管理</a>中体现。
                 </p>
                 <div class="pic supplier-one"></div>
 
@@ -59,10 +59,10 @@
                 <h6>目的：使用网页端进行需求的发送，供应链双方第一时间可以查看。</h6>
                 <p style="margin-bottom:0px;font-size:24px;">确认需求：</p>
                 <p style="margin-top:0px;margin-bottom:0px;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;方案一、使用库存查询模块，自行编辑要货需求</p>
-                <p style="margin-top:0px;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;方案二、到原材料供给之需求单处理模块中下载系统根据阈值预警生成的要货。</p>
+                <p style="margin-top:0px;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;方案二、到原材料供给之需求单处理模块中下载系统根据阈值预警生成的要货需求。</p>
 
                 <p style="margin-bottom:0px;font-size:24px;">上传需求：</p>
-                <p style="margin-top:0px;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;将要货需求上传至WMS系统中，在上传的过程中，系统会逐一检查零件号、要货数量、日期等信息，如果有错误，系统会提示纠错，直至完全无误后，系统将需求传至供应商处。</p>
+                <p style="margin-top:0px;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;将上方的要货需求上传至WMS系统中，在上传的过程中，系统会逐一检查零件号、要货数量、日期等信息。如果有错误，系统会提示纠错。直至完全无误后点击发送，系统将需求传至供应商处。</p>
                 <div class="pic supplier-two-one"></div>
                 <div class="pic supplier-two-two"></div>
 
@@ -71,14 +71,14 @@
 
                 <div class="pic supplier-two-three"></div>
 
-                <h4 id="3">3.	供应商按需模块</h4>
+                <h4 id="3">3.	供应商按需发货模块</h4>
                 <h6>目的：需求查看与协商修改，每次需求均有记录方便日后对供应商评定。</h6>
                 <p>供应商查看需求后，可以在系统中下载库存比对清单，如果发现货物不足，可以点击提交工单，将所不足的货物描述清楚后，发送给指定的计划员，计划员只要有网络就可以进行请求的处理。</p>
-                <p>如果货物充足，供应商可以直接筛选需求后，直接将需求转换成发运单，系统自动生成发运单ID，且每箱包装均有ID。</p>
+                <p>如果货物充足，供应商可以直接筛选需求后，直接将需求转换成发运单，系统自动生成托清单，托清单上会有托清单ID，且每箱包装上都贴有包装标签（用于仓库管理中的接收模块）。</p>
                 <div class="pic supplier-three-one"></div>
                 <p>系统提供打印客户端，供应商可以打印出可粘贴的标签，贴于每箱货物上。</p>
                 <div class="pic supplier-three-two"></div>
-
+                  <div class="pic supplier-three-three"></div>
 
                 <h4 id="4">4.	分析报表</h4>
                 <h6>目的：用户查询CF值、订单进度等，充分了解需求与到实际到货的差别。</h6>
@@ -93,7 +93,7 @@
                 <ul>
                   <li><a href="#1">基础信息维护</a></li>
                   <li><a href="#2">需求模块</a></li>
-                  <li><a href="#3">供应商按需模块</a></li>
+                  <li><a href="#3">供应商按需发货模块</a></li>
                   <li><a href="#4">分析报表</a></li>
                 </ul>
             </div>
