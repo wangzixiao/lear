@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98af304-d3a8-4293-8618-19fc91d9d519" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/order/1-2.png" afterPath="$PROJECT_DIR$/images/order/1-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/order/1-3-2.png" afterPath="$PROJECT_DIR$/images/order/1-3-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/order/1-4.png" afterPath="$PROJECT_DIR$/images/order/1-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-3-1.png" afterPath="$PROJECT_DIR$/images/product/2-3-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-3-2.png" afterPath="$PROJECT_DIR$/images/product/2-3-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-3-3.png" afterPath="$PROJECT_DIR$/images/product/2-3-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-3-4.png" afterPath="$PROJECT_DIR$/images/product/2-3-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-3-5.png" afterPath="$PROJECT_DIR$/images/product/2-3-5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-4-1.png" afterPath="$PROJECT_DIR$/images/product/2-4-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-4.png" afterPath="$PROJECT_DIR$/images/product/2-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-5-1.png" afterPath="$PROJECT_DIR$/images/product/2-5-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-5-2.png" afterPath="$PROJECT_DIR$/images/product/2-5-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-5-3.png" afterPath="$PROJECT_DIR$/images/product/2-5-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-6-1.png" afterPath="$PROJECT_DIR$/images/product/2-6-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/product/2-6-2.png" afterPath="$PROJECT_DIR$/images/product/2-6-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-1-3.png" afterPath="$PROJECT_DIR$/images/material/3-1-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-1-4.png" afterPath="$PROJECT_DIR$/images/material/3-1-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-1-5.png" afterPath="$PROJECT_DIR$/images/material/3-1-5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-3.png" afterPath="$PROJECT_DIR$/images/material/3-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-4-1.png" afterPath="$PROJECT_DIR$/images/material/3-4-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-4-2.png" afterPath="$PROJECT_DIR$/images/material/3-4-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-5-1.png" afterPath="$PROJECT_DIR$/images/material/3-5-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-5-2.png" afterPath="$PROJECT_DIR$/images/material/3-5-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-7-1.png" afterPath="$PROJECT_DIR$/images/material/3-7-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/material/3-7-2.png" afterPath="$PROJECT_DIR$/images/material/3-7-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,16 +39,7 @@
       <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3326613">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order-manage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order-manage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="54" selection-start="3020" selection-end="3020" vertical-scroll-proportion="-7.2916665">
+            <state line="48" column="26" selection-start="826" selection-end="826" vertical-scroll-proportion="0.40826613">
               <folding />
             </state>
           </provider>
@@ -484,14 +449,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/order-manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="54" selection-start="3020" selection-end="3020" vertical-scroll-proportion="-7.2916665">
+        <state line="76" column="54" selection-start="3022" selection-end="3022" vertical-scroll-proportion="0.10123967">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3326613">
+        <state line="48" column="26" selection-start="826" selection-end="826" vertical-scroll-proportion="0.40826613">
           <folding />
         </state>
       </provider>
