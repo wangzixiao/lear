@@ -18,12 +18,13 @@
         <div class="top-nav">
             <ul>
                 <li><a href="index.html">主页</a></li>
-                <li><a href="order-manage.html">订单管理</a></li>
+                <li><a href="order-manage.html">客户订单管理</a></li>
                 <li><a href="product-manage.html">成品管理</a></li>
                 <li><a href="material-manage.html">原材料供给管理</a></li>
-                <li><a href="warehouse-manage.html">仓库管理</a></li>
+                <li><a href="warehouse-manage.html">原材料仓库管理</a></li>
                 <li><a href="supplier-manage.html">供应商管理</a></li>
                 <li class="active"><a href="emergency.html">调平/盘点</a></li>
+                 <li><a href="assemble-manage.html">集成模块</a></li>
                 <div class="clear"> </div>
             </ul>
         </div>
@@ -48,11 +49,23 @@
         <div class="article-left">
             <div class="blog-single-artical">
                 <h4 id="1" style="margin-top:0px;">1.	调平处理模块</h4>
-                <p>任何情况下，如果已经出现，原材料箱在善友仓库，工厂超市，成品在工厂，仓库丢失或者不能使用或发货的情况，并且已经确认无误，WMS系统提供将以上原材料，成品标记为报废处理，并且需要注明报废理由
+                <h6>WMS调平管理记录库存差异及其原因。</h6>
+                <p>系统提供库存实时查询的功能，用户可以按照仓库、时间段、零件、零件类型等进行库存查询并导出报表。
                 </p>
-                <h6>WMS提供导出报废报表</h6>
                 <div class="pic emergency-one"></div>
+                <p>如果系统库存记录与实际货物数量不相符合，确定原因后，可在系统中进行库存调平处理。WMS系统会记录下调平零件的相关信息、调平的增加量或减少量、调平原因及调平人员。</p>
+                <p>所有的差异记录可以通过筛选时间进行查询并导出。</p>
+                <h6>WMS提供导出报废报表</h6>
                 <div class="pic emergency-two"></div>
+                
+                <h4 id="2" style="margin-top:0px;">2.	库存盘点模块</h4>
+                <h6>库存扫描盘点，减少人工出错率。</h6>
+                <p>确定使用此盘点功能后，盘点当天WMS系统会停止软件其他功能，当天不可进行出库与入库操作。</p>
+                <p>系统可根据多种条件(仓库类型、零件号等)查询库存，查出的库存报表可以导出。</p>
+                <p>盘点员工可以使用移动扫描设备进行逐一货物扫描。</p> 
+                <p>扫描完成后，系统会显示一份差异报表，此报表可以下载。</p>
+                <p>盘点员工根据差异报表查找原因，进行库存的调平管理。</p>
+                <p>系统进行调平后，库存盘点工作结束，可以导出一份盘点报表。</p>
             </div>
         </div>
 
@@ -60,6 +73,7 @@
             <div class="fix-menu" id="fix-menu">
                 <ul>
                     <li><a href="#1">调平处理模块</a></li>
+                    <li><a href="#2">库存盘点模块</a></li>
                 </ul>
             </div>
         </div>
